@@ -1,0 +1,15 @@
+{
+  "name": "day2",
+  "version": "1.0.0",
+  "description": "Setting up endpoints and understanding endpoint types",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Abinav Seelan and Aditi Mohanty",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

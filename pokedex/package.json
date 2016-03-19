@@ -1,0 +1,11 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "example for node101+mongo",
+  "main": "server.js",
+  "author": "Abinav Seelan & Aditi Mohanty",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

@@ -6,6 +6,8 @@
   "author": "Abinav Seelan & Aditi Mohanty",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.4"
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongojs": "^2.3.0"
   }
 }

@@ -1,0 +1,26 @@
+[
+	{
+		"no":1,
+		"sprite":"img/1.png",
+		"name":"Bulbasaur",
+		"type":"Poison/Grass",
+		"evolves":"Ivysaur",
+		"evolves_no":2
+	},
+	{
+		"no":2,
+		"sprite":"img/2.png",
+		"name":"Ivysaur",
+		"type":"Poison/Grass",
+		"evolves":"Venasaur",
+		"evolves_no":3
+	},
+	{
+		"no":3,
+		"sprite":"img/3.png",
+		"name":"Venasaur",
+		"type":"Poison/Grass",
+		"evolves":"None",
+		"evolves_no":0
+	}
+]

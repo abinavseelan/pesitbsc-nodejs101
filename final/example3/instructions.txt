@@ -1,0 +1,54 @@
+Mongodb Instructions - Node101
+
+
+Setting it all up: 
+
+1. 	Start up the terminal. Change directory to your project directory.
+
+2. 	Create a directory to house your MongoDB. 
+
+3. 	Use the following command to start a mongodb server
+	
+		$ mongod --dbpath /path/to/dbfolder
+
+4. 	Fire up another terminal.
+
+5. 	Use the following command to connect to the mongodb server to insert and view data.
+
+		$ mongo
+
+6. 	Yay! You've connected to the mongodb server and now have access to the mongo terminal.
+
+
+Creating a Database:
+
+1.	Creating a database is as simple as following command.
+
+		> use exampleDb
+   
+	Note: The db won't get instantiated until you add some data into it. =)
+
+
+Creating a Collection:  
+
+1.	Just like a database, a collection is created only when the first data value is inserted into the collection.
+
+2.	To insert into a collection (thereby creating it), use the following command
+
+		> db.<collectionName>.insert(<data>)
+
+	For example, if I want to create a "user" collection, 
+
+		> db.user.insert( { "name" : "John Doe", "age" : "23" });
+
+3. 	To view all the records in a collection, use the following command
+
+		> db.<collectionName>.find();
+
+	It can get a little messy when you have a lot of data in each record. The fix for this? Try this. =)
+
+		> db.<collectionName>.find().pretty();
+
+4.	To delete an entire collection, use
+	
+		> db.<collectionName>.drop();

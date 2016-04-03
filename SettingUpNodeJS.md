@@ -40,4 +40,11 @@ It is best if removed.
  `sudo apt-get install nodejs`
 3. Install npm  
  `sudo apt-get install npm`
+4. To check if node has been installed and added to your PATH variable correctly, type the following in your terminal:
+```
+ $ node -v
+
+ $ npm -v
+ ```
+ Both these commands should return a version number.
 

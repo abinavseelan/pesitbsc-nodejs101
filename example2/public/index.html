@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Example 2 | Node101</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<script src="js/jquery-2.2.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+
+		<div class="container">
+			<h1>Separate Endpoints</h1>
+			<br/>
+
+			<form action="http://localhost:1337/endpoint1">
+				<input class="btn btn-success" type="submit" value="EndPoint 1 - Click Me!"/>
+			</form>
+
+			<form action="http://localhost:1337/endpoint2">
+				<input class="btn btn-success" type="submit" value="EndPoint 2 - Click Me!"/>
+			</form>
+
+			<form action="http://localhost:1337/api/endpoint">
+				<input class="btn btn-success" type="submit" value="api/endpoint - Click Me!"/>
+			</form>
+
+			<hr/>
+
+			<h1>Different Types of Endpoints</h1>
+			<br/>
+
+			<form action="http://localhost:1337/api/singleendpoint" method="GET">
+				<input class="btn btn-danger" type="submit" value="GET Request"/>
+			</form>
+
+			<form action="http://localhost:1337/api/singleendpoint" method="POST">
+				<input class="btn btn-danger" type="submit" value="POST Request"/>
+			</form>
+		</div>
+	</body>
+</html>

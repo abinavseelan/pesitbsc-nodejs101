@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Add A Pokemon</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<script src="js/jquery-2.2.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+
+		<style>
+			.space{
+				margin-top:40px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row space">
+				<div class="col-md-6 col-md-offset-3">
+					<form role="form" action="/api/pokemon" method="POST">
+					  	<div class="form-group">
+					    	<label for="pokemon_number">Pokemon Number: </label>
+					    	<input type="text" class="form-control" name="pokemon_number">
+					  	</div>
+					  	<div class="form-group">
+					    	<label for="pokemon_name">Pokemon Name: </label>
+					    	<input type="text" class="form-control" name="pokemon_name">
+					  	</div>
+					  	<div class="form-group">
+					    	<label for="pokemon_sprite">Type: </label>
+					    	<input type="text" class="form-control" name="pokemon_type">
+					  	</div>
+					  	<div class="form-group">
+					    	<label for="pokemon_sprite">Description: </label>
+					    	<input type="text" class="form-control" name="pokemon_description">
+					  	</div>
+					  	<div class="form-group">
+					    	<label for="pokemon_sprite">Evolves Into: </label>
+					    	<input type="text" class="form-control" name="pokemon_evolves">
+					  	</div>
+					  	<button type="submit" class="btn btn-success">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>s

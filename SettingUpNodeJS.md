@@ -1,9 +1,10 @@
 ### Mac OS X
-
-1. Visit http://nodejs.org/ 
-2. Download the latest version of Node
-3. Install the package from the .dmg by following along the install wizard which will install both node and npm, npm is Node Package Manager which facilitates installs of additional packages for node.js.
-4. To check if node has been installed and added to your PATH variable correctly, type the following in your terminal:
+1. Fire up your terminal.
+2. Ensure you have installed Xcode Command Line Tools installed. Follow [these](http://docwiki.embarcadero.com/RADStudio/XE4/en/Installing_the_Xcode_Command_Line_Tools_on_a_Mac) instructions for installing command line tools for your Mac.
+3. Visit http://nodejs.org/ 
+4. Download the latest version of Node
+5. Install the package from the .dmg by following along the install wizard which will install both node and npm, npm is Node Package Manager which facilitates installs of additional packages for node.js.
+6. To check if node has been installed and added to your PATH variable correctly, type the following in your terminal:
 	```
 	$ node -v
 	

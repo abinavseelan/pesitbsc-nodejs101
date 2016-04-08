@@ -9,6 +9,7 @@ Repository for the NodeJS Workshop conducted at PESIT South Campus by PESIT Sout
 * Alternatively you can get the zip file of the contents of this repository [here](https://github.com/abinavseelan/pesitbsc-nodejs101/archive/master.zip).
 * Install & [set up MongoDB](SettingUpMongoDB.md) 
 * Run the following command in your terminal:  
-```
+ ```
  npm install -g express body-parser mongojs
-```
+ ```
+* Don't forget to get your laptops & ID Cards! =P

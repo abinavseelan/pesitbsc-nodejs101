@@ -8,7 +8,7 @@ We've provided the install instructions for Windows, Mac OS X and Ubuntu.
 
 1. Fire up your terminal
 2. Ensure you have installed Xcode Command Line Tools installed. Follow [these](http://docwiki.embarcadero.com/RADStudio/XE4/en/Installing_the_Xcode_Command_Line_Tools_on_a_Mac) instructions for installing command line tools for your Mac.
-3. Make sure you have Homebrew installed. Run this command
+3. Make sure you have Homebrew installed. Run this command:  
  ```  
  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
  ```
@@ -31,7 +31,8 @@ We've provided the install instructions for Windows, Mac OS X and Ubuntu.
 ### Windows
 
 1. Visit https://www.mongodb.org/dr/fastdl.mongodb.org/win32/mongodb-win32-x86_64-3.2.4-signed.msi/download
-2. Follow instructions
+2. Follow the installer instructions. 
+3. Phew that was easy! =P
 
 
 ### Ubuntu - apt for 64 Bit Ubuntu LTS 12.04 and 14.04

@@ -22,9 +22,9 @@ We've provided the install instructions for Windows, Mac OS X and Ubuntu.
 5. Check if mongodb was installed successfully, running these commands should give you the versions installed.
   If it says command not found, then something went wrong.
   ```  
-  mongo -v  
+  mongo --version  
   
-  mongod -v
+  mongod --version
   ```
  
  
@@ -69,9 +69,9 @@ Note: You will be asked to use your password for executing commands in sudo mode
 5. Check if mongodb was installed successfully, running these commands should give you the versions installed.
   If it says command not found, then something went wrong.
   ```  
-  mongo -v  
+  mongo --version  
   
-  mongod -v
+  mongod --version
   ```
   
 6. Rejoice! =P

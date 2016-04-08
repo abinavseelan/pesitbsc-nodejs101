@@ -6,13 +6,13 @@ We've provided the install instructions for Windows, Mac OS X and Ubuntu.
 
 ### Mac OS X
 
-1. Fire up your terminal
+1. Fire up your terminal.
 2. Ensure you have installed Xcode Command Line Tools installed. Follow [these](http://docwiki.embarcadero.com/RADStudio/XE4/en/Installing_the_Xcode_Command_Line_Tools_on_a_Mac) instructions for installing command line tools for your Mac.
 3. Make sure you have Homebrew installed. Run this command:  
  ```  
  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
  ```
-4. Run:  
+4. Run these to update brew & install mongod:
  ```  
  brew update
  
@@ -26,6 +26,8 @@ We've provided the install instructions for Windows, Mac OS X and Ubuntu.
   
   mongod --version
   ```
+  
+6. `mongod -v` will do a verbose start of the MongoDB daemon process.
  
  
 ### Windows

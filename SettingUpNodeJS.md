@@ -1,3 +1,10 @@
+# Installing NodeJS
+
+Node.js is a very powerful JavaScript-based framework/platform built on Google Chrome's JavaScript V8 Engine. 
+
+Here we've provided instructions on how to install NodeJS on Windows, Mac OS X and Ubuntu (Linux).
+
+
 ### Mac OS X
 1. Fire up your terminal.
 2. Ensure you have installed Xcode Command Line Tools installed. Follow [these](http://docwiki.embarcadero.com/RADStudio/XE4/en/Installing_the_Xcode_Command_Line_Tools_on_a_Mac) instructions for installing command line tools for your Mac.

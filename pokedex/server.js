@@ -29,7 +29,7 @@ var db = mongo(databaseURL,['pokemon']);
 
 //Endpoint to get all the pokemon in our database
 app.get('/api/pokemon', function (request, response) {
-	db.pokemon.find(function (err, docs) {
+	db.pokemon.find({},function (err, docs) {
 	    console.log("Got");
 	    console.log(docs);
 	    if(err){
